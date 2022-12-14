@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Public Sans', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+code {
+  outline: none !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.color-01n,
+.color-01d,
+.color-02n,
+.color-03n,
+.color-04n,
+.color-09n,
+.color-10n,
+.color-11n,
+.color-13n,
+.color-50n{
+  text-shadow: 0px 0px 30px #1010108f;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.color-02d,
+.color-03d,
+.color-04d,
+.color-09d,
+.color-10d,
+.color-11d,
+.color-13d,
+.color-50d{
+  text-shadow: 1px 1px 8px #ffffff96;
+  color: rgb(46, 45, 45);
+  font-size: 1.5em;
+}

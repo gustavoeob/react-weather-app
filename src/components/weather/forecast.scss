@@ -1,0 +1,54 @@
+.accordion {
+  z-index: 100;
+  width: 720px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  h2{
+    font-weight: 500;
+  }
+  .accordion__item {
+    border-radius: 40px 40px 24px 24px;
+    .daily-item-box {
+      background: #ffffff90;
+      background: rgb(255, 255, 255);
+      padding: 12px 18px;
+      border-radius: 25px;
+      margin: 12px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #7a7b80;
+
+      .daily-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        text-align: start;
+      }
+      .weather-icon-sm {
+        width: 40px;
+      }
+      .forecast-day {
+        width: 85px;
+      }
+    }
+    .forecast-temp {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+
+.accordion__panel {
+  margin: 0 0 15px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: #7a7b80;
+  background-color: #ffffff;
+  .panel-box{
+    display: flex;
+    justify-content: space-between;
+  }
+}
